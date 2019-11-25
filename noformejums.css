@@ -1,0 +1,70 @@
+hr{
+	background-color:#ffffff;
+	height:1px;
+	border:0px;
+}
+
+body{
+	background-image:url(bildes/bk.jpg);
+}
+
+
+.A {
+	background-image:url(bildes/logo.png);
+	height:150px;
+	width:800px;
+	margin:0px auto;
+}
+
+
+
+.B {
+	background:#2385B6;
+	width:800px;
+	margin:auto;
+}
+
+.C {
+	background:#2385B6;
+	width:780px;
+	margin:0px auto;
+	color:#ffffff;
+	padding:10px;
+}
+
+img {
+	height:100px;
+	width:100px;
+	border:4px;
+	padding:10px;
+}
+/*--------Izvelne2 dizaina noformçjums----------*/
+
+.izvelne2 {
+	background:#25E7DE;
+	padding:10px;
+}
+
+.izvelne2  li{
+	list-style-type:none;  /*tiek noòemta nesakârtotâ saraksta simbols pirms nosaukuma*/
+	display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+}
+
+.izvelne2 li a{
+	text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
+	background:#25E7DE;
+	color:#000000; /* teksta krâsa */
+	padding:10px; /*attâlums no teksta lîdz taisnastûra malâm*/
+}
+
+.izvelne2 li a:hover{
+	padding:20px;
+}
+/*--------Izvelne2 dizaina noformçjuma beigas----------*/
+
+
+.epasts {
+	color:#000000;
+	padding:40px;
+	background-color:#41A7DA;
+}
