@@ -1,29 +1,101 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="noformejums.css" />
-<link rel="SHORTCUT ICON" href="favicon.ico"/>
-<title>Galerija</title>
-</head>
-<body>
-<div class = "A"></div>
-<div class = "B">
-	<ul class = "izvelne2">
-	<li><a href = "index.html">Sākums</a></li>
-	<li><a href = "galerija.html">Galerija</a></li>
-	<li><a href = "kontakti.html">Kontakti</a></li>
-	</ul>
-</div>
-<div class = "C">
-
-<img src = "bildes/1.png" alt = "html"/>
-<img src = "bildes/2.jpg" alt = "html"/>
-<img src = "bildes/3.jpg" alt = "html"/>
-<img src = "bildes/4.jpg" alt = "html"/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MWrnntsFjF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-</body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<script src="js/lightbox.js"></script>
+		<title>Sport</title>
+	</head>
+		<body>
+			<div class="container">
+				<div class="row">
+					<div id="header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h1 class="text-center">Sport</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">  
+						<div class="thumbnail">
+							<div class="text-center">
+								<div class="caption">
+									<h3>Sport types</h3>
+									<h5>Judo</h5>
+									<h5>Swimming</h5>
+									<h5>Soccer</h5>
+									<p><a href="index.html" class="btn btn-primary" role="button">Home</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">  
+						<div class="thumbnail">
+							<div class="text-center">
+								<div class="caption">
+									<h3>Judo club "Satori" contacts</h3>
+									<p><a href="kontakti.html" class="btn btn-primary" role="button">Contacts</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">  
+						<div class="thumbnail">
+							<div class="text-center">
+								<div class="caption">
+									<h3>Gallery</h3>
+									<p><a href="galerija.html" class="btn btn-primary" role="button">Foto gallery</a></p>
+									<p><a href="galeriav.html" class="btn btn-primary" role="button">Video gallery</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<a class="example-image-link" href="bildes/1.png" data-lightbox="example-set" data-title="Judo">
+							<img class="example-image" src="bildes/1.png" alt="" height="100%" width="100%">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<a class="example-image-link" href="bildes/2.jpg" data-lightbox="example-set" data-title="swimming">
+							<img class="example-image" src="bildes/2.jpg" alt="" height="100%" width="100%">
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<a class="example-image-link" href="bildes/3.jpg" data-lightbox="example-set" data-title="soccer">
+							<img class="example-image" src="bildes/3.jpg" alt="" height="100%" width="100%">
+						</a>
+					</div>
+				</div>
+			
+			</div>
+			<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay" style="display: none; width: 1183px; height: 938px;"></div>
+			<div id="lightbox" tabindex="-1" class="lightbox" style="top: 50px; left: 0px; display: none;">
+				<div class="lb-outerContainer" style="width: 972px; height: 533px;">
+					<div class="lb-container">
+						<img class="lb-image" src="bildes/1.png" alt="" style="width: 972px; height: 533px;">
+						<div class="lb-nav" style="">
+							<a class="lb-prev" aria-label="Previous image" href="" style="display: none;"></a>
+							<a class="lb-next" aria-label="Next image" href="" style=""></a>
+						</div>
+						<div class="lb-loader" style="display: none;">
+							<a class="lb-cancel"></a>
+						</div>
+					</div>
+				</div>
+				<div class="lb-dataContainer" style="width: 972px;">
+					<div class="lb-data">
+						<div class="lb-details">
+							<span class="lb-caption" style="">Judo</span>
+								<span class="lb-number">Image 1 of 4</span>
+						</div>
+						<div class="lb-closeContainer">
+							<a class="lb-close"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/lightbox-plus-jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		</body>
 </html>
